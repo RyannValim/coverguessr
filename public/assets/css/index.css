@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Saira:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Saira', sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    border: 3px solid black;
+}
+
+header>nav>a{
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.15rem;
+    border: 3px solid black;
+}
+
+footer>a{
+    color: black;
+    font-weight: bold;
+}
+
+#albumPlace{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+}
+
+#guessPlace{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+}
