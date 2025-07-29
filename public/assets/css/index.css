@@ -3,62 +3,58 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    color: black;
     font-family: 'Saira', sans-serif;
 }
 
+html, body{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 nav{
-    position: fixed;
-    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 100%;
-    margin-bottom: 50px;
-    border: 3px solid black;
+    border: 3px solid orange;
 }
 
-header>nav>a{
+nav>a{
     text-decoration: none;
     font-size: 1.75rem;
     font-style: italic;
     font-weight: 500;
-    color: black;
 }
 
 main{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
-    align-items: center;
+    border: 3px solid blue;
 }
 
 footer{
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
     display: flex;
     justify-content: center;
     gap: 30px;
     font-size: 1.15rem;
-    border: 3px solid black;
+    border: 3px solid green;
 }
 
-footer>a{
-    color: black;
-    font-weight: bold;
-}
-
-#albumPlace{
+#albumPlace, #guessPlace{
+    margin: 100px 0 100px 0;
     width: 500px;
     height: 500px;
-    border: 3px solid black;
-}
-
-#guessPlace{
-    width: 500px;
-    height: 500px;
-    border: 3px solid black;
+    border: 3px solid red;
 }
